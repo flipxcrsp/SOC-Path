@@ -1,44 +1,53 @@
-# Log Analysis
+# Log Analysis – Cybrary Lab
 
-This folder contains artifacts and practical exercises completed as part of Cybrary's **Log Analysis** module under the SOC Analyst Career Path.
-
-These exercises focused on identifying, analyzing, and interpreting logs from Linux systems, often using core utilities like `cat`, `head`, `less`, and `grep` to manually investigate security-relevant events.
-
-## 🧪 What This Includes
-
-- Screenshots from log exploration and filtering exercises
-- Terminal outputs from hands-on tasks
-- Analysis of `.log` files for suspicious patterns or entries
-
-## 🔍 Sample Activities
-
-- Listing files in the `/var/log/` directory
-- Using `cat` and `head` to inspect logs
-- Searching for specific keywords in log entries
-- Understanding common Linux log files such as:
-  - `auth.log`
-  - `syslog`
-  - `kern.log`
-
-## 📸 Notable Screenshots
-
-| Screenshot | Description |
-|------------|-------------|
-| `log_analysis_challenge_terminal.png` | Final terminal screen of the log challenge |
-| `log_analysis_display_logs_cat_head1.png` | Displaying logs with `cat` and `head` (part 1) |
-| `log_analysis_display_logs_cat_head2.png` | Displaying logs with `cat` and `head` (part 2) |
-| `log_analysis_file_types.png` | Breakdown of log file types in `/var/log/` |
-| `log_analysis_challenge_log_1.png` | Specific log showing the flag match |
-| `log_analysis_challenge_questions.png` | Question prompts for the log analysis challenge |
-
-## 🎯 Learning Objectives
-
-- Practice reading system logs from the CLI
-- Recognize relevant system and authentication events
-- Extract useful indicators from raw log data
+This lab demonstrates foundational log analysis skills using Linux command-line tools. Screenshots and terminal outputs reflect progress through Cybrary’s **Log Analysis Basics** module under the SOC Analyst Career Path.
 
 ---
 
-> Screenshots taken during Cybrary's **Log Analysis Basics** lab as part of the SOC Analyst Career Path.
+## 🧠 Objectives
 
-Back to [../README.md](../README.md)
+- Explore and analyze system log files
+- Identify and filter key information from `.log` files
+- Practice using tools like `cat`, `head`, `tail`, `grep`, `wc`, and others
+- Understand log file types and formats for system monitoring
+
+---
+
+## 🛠️ Commands Practiced
+
+- `cat`, `head`, `tail` – View log contents
+- `grep` – Search for patterns in logs
+- `wc` – Count lines, words, and characters
+- `less`, `more` – Paginate through large logs
+- `file` – Identify file types
+- `find` – Locate logs within directories
+
+---
+
+## 📸 Screenshots
+
+Below are visual highlights of the exercises completed:
+
+### Challenge Overview & Questions
+![Log_Analysis_Challenge_Log_1.png](./Log_Analysis_Challenge_Log_1.png)  
+![Log_Analysis_Challenge_Questions.png](./Log_Analysis_Challenge_Questions.png)
+
+### Terminal Work
+![Log_Analysis_Challenge_terminal.png](./Log_Analysis_Challenge_terminal.png)
+
+### Displaying Logs
+![Log_Analysis_Display_Logs_cat_head1.png](./Log_Analysis_Display_Logs_cat_head1.png)  
+![Log_Analysis_Display_Logs_cat_head2.png](./Log_Analysis_Display_Logs_cat_head2.png)
+
+### File Type Identification
+![Log_Analysis_File_Types.png](./Log_Analysis_File_Types.png)
+
+---
+
+## ✅ Outcome
+
+Completed Cybrary’s **Log Analysis Basics** lab and demonstrated ability to interact with logs using common Linux utilities. This lab serves as a base for deeper log analysis, SIEM integration, and event correlation in future modules.
+
+📄 [View Certificate of Completion – Log Analysis Basics](../Certificates/cybrary-cert-log-analysis-basics.pdf)
+
+
