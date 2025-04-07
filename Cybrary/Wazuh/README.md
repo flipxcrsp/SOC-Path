@@ -44,13 +44,32 @@ Completed challenge by identifying correct users, filters, and answering correla
 
 ---
 
-## 🔗 Other Notable Screens
+### 📸 Other Notable Screens
 
-- [ ] `wazuh_interface_breakdown.png`
-- [ ] `wazuh_data_visualization.png`
-- [ ] `wazuh_events_sorting_multiple_alerts.png`
-- [ ] `wazuh_filter_rule_5710.png`
-- [ ] `wazuh_elastic_modules_view.png`
+<table>
+  <tr>
+    <td><img src="wazuh_mitre_t1098_pikachu_details.png" width="400"/></td>
+    <td><img src="wazuh_data_visualization.png" width="400"/></td>
+  </tr>
+  <tr>
+    <td><sub>MITRE T1098 Alert (User Creation)</sub></td>
+    <td><sub>Data Visualization of Alerts</sub></td>
+  </tr>
+  <tr>
+    <td><img src="wazuh_event_apparmor_denied_details.png" width="400"/></td>
+    <td><img src="wazuh_interface_breakdown.png" width="400"/></td>
+  </tr>
+  <tr>
+    <td><sub>AppArmor DENIED Alert</sub></td>
+    <td><sub>Interface Module Breakdown</sub></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center"><img src="wazuh_concepts_overview.png" width="400"/></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center"><sub>Elastic Modules Overview</sub></td>
+  </tr>
+</table>
 
 ---
 
