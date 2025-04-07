@@ -29,18 +29,18 @@ This lab demonstrates foundational log analysis skills using Linux command-line 
 Below are visual highlights of the exercises completed:
 
 ### Challenge Overview & Questions
-![Log_Analysis_Challenge_Log_1.png](./Log_Analysis_Challenge_Log_1.png)  
-![Log_Analysis_Challenge_Questions.png](./Log_Analysis_Challenge_Questions.png)
+![log_analysis_challenge_output_log1.png](./log_analysis_challenge_output_log1.png)  
+![log_analysis_challenge_questions.png](./log_analysis_challenge_questions.png)
 
 ### Terminal Work
-![Log_Analysis_Challenge_terminal.png](./Log_Analysis_Challenge_terminal.png)
+![log_analysis_challenge_terminal.png](./log_analysis_challenge_terminal.png)
 
 ### Displaying Logs
-![Log_Analysis_Display_Logs_cat_head1.png](./Log_Analysis_Display_Logs_cat_head1.png)  
-![Log_Analysis_Display_Logs_cat_head2.png](./Log_Analysis_Display_Logs_cat_head2.png)
+![display_logs_cat_head_part1.png](./display_logs_cat_head_part1.png)  
+![display_logs_cat_head_part2.png](./display_logs_cat_head_part2.png)
 
 ### File Type Identification
-![Log_Analysis_File_Types.png](./Log_Analysis_File_Types.png)
+![log_file_types_identification.png](./log_file_types_identification.png)
 
 ---
 
@@ -48,6 +48,5 @@ Below are visual highlights of the exercises completed:
 
 Completed Cybrary’s **Log Analysis Basics** lab and demonstrated ability to interact with logs using common Linux utilities. This lab serves as a base for deeper log analysis, SIEM integration, and event correlation in future modules.
 
-📄 [View Certificate of Completion – Log Analysis Basics](../Certificates/cybrary-cert-log-analysis-basics.pdf)
-
-
+📄 Certificate of Completion – Log Analysis Basics  
+[![Log Analysis Cert](../Certificates/cybrary-cert-log-analysis-basics.png)](../Certificates/cybrary-cert-log-analysis-basics.pdf)
