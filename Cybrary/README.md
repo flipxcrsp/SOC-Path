@@ -1,32 +1,44 @@
-# 🏅 Cybrary Certificates
+# 📚 Cybrary Labs – SOC Analyst Career Path
 
-This directory contains completion certificates and digital badges earned through hands-on Cybrary labs under the SOC Analyst Career Path.
-
----
-
-## 📜 Certificates
-
-### Log Analysis Basics  
-![Log Analysis Cert](./cybrary-cert-log-analysis-basics.png)
-
-### Windows Event Logs  
-![Windows Event Logs Cert](./cybrary-cert-windows-event-logs-basics.png)
-
-### Security Ticketing Basics  
-![Security Ticketing Cert](./cybrary-cert-security-ticketing-basics.png)
-
-### SIEM Basics  
-![SIEM Basics Cert](./cybrary-cert-siem-basics.png)
-
-### Search Expressions in a SIEM  
-![SIEM Search Expressions Cert](./cybrary-cert-search-expressions-in-a-siem.png)
+This directory showcases structured, hands-on labs completed through **Cybrary** as part of the SOC Analyst learning journey. Each subfolder represents a practical skill area like log analysis, SIEM search filtering, incident response ticketing, and Windows investigations.
 
 ---
 
-## 🛡️ Practice Badge
+## 🗂️ Subfolders & Lab Summaries
 
-![CySA+ Practice Badge](./cybrary_cysa_plus_practice_badge.png)
+- `Certificates/`  
+  PNG previews and PDFs of earned Cybrary certificates
+
+- `Log_Analysis/`  
+  Analyze Linux system logs using command-line tools like `grep`, `cat`, and `wc`  
+  ✅ Completed: **Log Analysis Basics**  
+  🏷️ ![Log Analysis Cert](./Certificates/cybrary-cert-log-analysis-basics.png)
+
+- `Windows_Event_Logs/`  
+  Use Windows Event Viewer and Wazuh to detect user creation (MITRE T1098)  
+  ✅ Completed: **Windows Event Logs Basics**  
+  🏷️ ![Windows Logs Cert](./Certificates/cybrary-cert-windows-event-logs-basics.png)
+
+- `Wazuh/`  
+  Filter events with DQL/Lucene syntax, map alerts to MITRE ATT&CK techniques  
+  ✅ Completed: **SIEM Basics** + **Search Expressions in a SIEM**  
+  🏷️ ![SIEM Basics Cert](./Certificates/cybrary-cert-siem-basics.png)  
+  🏷️ ![Search Exp Cert](./Certificates/cybrary-cert-search-expressions-in-a-siem.png)
+
+- `TheHive/`  
+  Simulate analyst workflows using TheHive to create, annotate, and resolve tickets  
+  ✅ Completed: **Security Ticketing Basics**  
+  🏷️ ![TheHive Cert](./Certificates/cybrary-cert-security-ticketing-basics.png)
 
 ---
 
-**All certificates reflect verified lab completions as part of Cybrary’s SOC Analyst Career Path.**
+## 🔎 About
+
+These labs were completed as part of the [Cybrary SOC Analyst Career Path](https://www.cybrary.it/) and are used to build real-world readiness for blue team roles in security operations.
+
+Each folder contains:
+- Screenshots of lab actions and results
+- Markdown documentation (README.md)
+- Linked completion certificates (where available)
+
+---
