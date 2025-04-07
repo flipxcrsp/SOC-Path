@@ -92,3 +92,14 @@ Successfully completed Wazuh SIEM labs and gained hands-on experience with log f
 <img src="../Certificates/cybrary-cert-siem-basics.png" width="500"/>
 
 [🔗 View PDF Certificate](../Certificates/cybrary-cert-siem-basics.pdf)
+
+---
+
+## 📄 Additional Certification
+
+This lab is part of the broader **SIEM Search Expressions in a SIEM** series. The certificate earned for mastering DQL search syntax and SIEM query logic is included here due to its strong relevance to the Wazuh search filters and log analysis exercises.
+
+<img src="../Certificates/cybrary-cert-search-expressions-in-a-siem.png" width="500"/>
+
+[🔗 View PDF Certificate – Search Expressions in a SIEM](../Certificates/cybrary-cert-search-expressions-in-a-siem.pdf)
+
