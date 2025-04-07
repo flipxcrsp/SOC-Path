@@ -9,33 +9,48 @@ This repo serves as a central hub for my cybersecurity learning journey, with a 
 
 The structure includes:
 - 🧠 **HTB Academy** – SOC Analyst Prerequisites path (Linux, Windows, Bash, Networking, Nmap, etc.)
-- 💻 **HTB Machines** – Starting Point and general machine write-ups
+- 💻 **HTB Machines** – Starting Point & beyond write-ups
 - 🧩 **TryHackMe** – room walk-throughs, flags, and tool usage
 - 📚 **Cybrary** – SOC Analyst Career Path milestones, notes, and practicals
 
 ---
 
 ## 📂 Repo Structure
-```
-SOC-Path/
-├── HTB_Academy/          # Notes and labs from HTB Academy
-│   ├── Linux_Fundamentals.md
-│   └── screenshots/
-├── HTB_Machines/         # Write-ups from Hack The Box machines
-│   ├── Starting_Point.md
-│   └── screenshots/
-├── TryHackMe/            # Room-based exercises
-├── Cybrary/              # Notes, progress, and practicals
-└── README.md             # This file
-```
+
+SOC-Path/  
+├── HTB_Academy/              # Notes and labs from HTB Academy  
+│   ├── Linux_Fundamentals.md  
+│   └── screenshots/  
+├── HTB_Machines/             # Write-ups from Hack The Box machines  
+│   ├── Starting_Point.md  
+│   └── screenshots/  
+├── TryHackMe/                # Room-based exercises  
+├── Cybrary/  
+│   ├── Certificates/             # Downloaded Cybrary completion certs (PDF)  
+│   ├── SIEM_Search_Exp/          # Screenshot series from Wazuh SIEM search challenge  
+│   ├── Windows_Event_Logs/       # Screenshots from Windows Event Log analysis and Wazuh filtering  
+│   ├── Log_Analysis/             # Screenshot sequence of Cybrary’s log filtering challenge  
+│   ├── The_Hive/                 # Security ticketing workflows in TheHive  
+│   └── Wazuh/                    # MITRE ATT&CK detections, rule filters, and dashboard visuals  
+└── README.md  
 
 ---
 
 ## ✅ Progress Snapshot
-- [x] HTB Academy: SOC Analyst Prerequisites
-- [x] TryHackMe: Cyber Security 101 Path
-- [ ] TryHackMe: SOC Level 1 Path
-- [x] Cybrary: SOC Analyst Career Path
+- [x] HTB Academy: SOC Analyst Prerequisites  
+- [x] TryHackMe: Cyber Security 101 Path  
+- [ ] TryHackMe: SOC Level 1 Path  
+- [x] Cybrary: SOC Analyst Career Path  
+
+---
+
+## 📜 Certificates
+
+- [SIEM Basics](Cybrary/Certificates/cybrary-cert-siem-basics.pdf)  
+- [Search Expressions in a SIEM](Cybrary/Certificates/cybrary-cert-search-expressions-in-a-siem.pdf)  
+- [Log Analysis Basics](Cybrary/Certificates/cybrary-cert-log-analysis-basics.pdf)  
+- [Security Ticketing Basics](Cybrary/Certificates/cybrary-cert-security-ticketing-basics.pdf)  
+- [Windows Event Logs Basics](Cybrary/Certificates/cybrary-cert-windows-event-logs-basics.pdf)  
 
 ---
 
@@ -58,11 +73,25 @@ MITRE ATT&CK, log analysis, IDS/IPS, ticketing workflows, SIEM, SSH, firewalls, 
 
 ---
 
+## 🔍 Notable Screens (from Labs)
+
+**TheHive Ticket Lifecycle:**  
+![Ticket Created](Cybrary/TheHive/thehive_ticket_created_details.png)  
+![Ticket Closed](Cybrary/TheHive/thehive_ticket_closed_summary.png)
+
+**Wazuh MITRE Rule Detection (T1098):**  
+![MITRE Detection](Cybrary/Wazuh/wazuh_mitre_t1098_pikachu_details.png)
+
+**Windows Event Log Analysis:**  
+![Pikachu Account Created](Cybrary/Windows_Event_Logs/event_log_4720_pikachu_generalview.png)
+
+---
+
 ## 🧠 Goal
-Build a visible, technical portfolio to demonstrate SOC readiness — showcasing tools, detection, response techniques, and lab-based learning. This includes:
-- Learning structured SOC modules from HTB Academy, TryHackMe, and Cybrary
-- Practicing ticketing and detection workflows using platforms like TheHive
-- Capturing screenshots, answering questions, and showing methodology
+Build a visible, technical portfolio to demonstrate SOC readiness — showcasing tools, detection, response techniques, and lab-based learning. This includes:  
+- Learning structured SOC modules from HTB Academy, TryHackMe, and Cybrary  
+- Practicing ticketing and detection workflows using platforms like TheHive and Wazuh  
+- Capturing screenshots, answering questions, and showing methodology  
 
 ---
 
