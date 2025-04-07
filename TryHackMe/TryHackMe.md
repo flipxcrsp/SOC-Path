@@ -6,17 +6,15 @@
 
 ---
 
-## 🧠 Completed Rooms & Highlights
+## 🧩 Path Progress Overview
 
-### ✅ Linux Fundamentals Part 1  
-![Linux Fundamentals Part 1](screenshots/linux-fundamentals-completion.png)
+All completed rooms in the **Cyber Security 101** learning path are shown below:
 
----
-
-### ✅ Linux Fundamentals Part 2  
-![Linux Fundamentals Part 2](screenshots/linux-fundamentals-2-completion.png)
+![Completed Rooms – 2025-04-07](screenshots/THM_completed_rooms_4.7.25.png)
 
 ---
+
+## 🧠 Selected Labs & Highlights
 
 ### ✅ Defensive Security Intro  
 🛡️ Investigated suspicious activity and escalated SIEM alerts
@@ -24,20 +22,6 @@
 ![Defensive Security](screenshots/defensive-security-intro-completion.png)  
 ![SIEM Inspection](screenshots/siem-inspection.png)  
 ![Escalation](screenshots/siem-incident-escalation.png)
-
----
-
-### ✅ Search Skills  
-Used effective search techniques to gather threat intelligence
-
-![Search Skills](screenshots/search-skills-completion.png)
-
----
-
-### ✅ Offensive Security Intro  
-Introduced to enumeration, basic recon, and vulnerability scanning
-
-![Offensive Security](screenshots/offensive-security-intro-completion.png)
 
 ---
 
@@ -72,7 +56,6 @@ _Environment Used in Cyber Security 101 Path_
 
 ## ✅ Next Steps
 
-- Complete **SOC Level 1 Path**
-- Add deeper technical breakdowns per room
+- Complete **SOC Level 1 Path**  
+- Add deeper technical breakdowns per room  
 - Begin documenting Cybrary content
-
