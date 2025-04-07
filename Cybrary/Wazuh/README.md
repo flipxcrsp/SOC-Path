@@ -1,57 +1,65 @@
-# Wazuh SIEM Lab
+# 🛡️ Wazuh SIEM Labs – Search Expressions & Event Correlation
 
-This directory contains screenshots and notes from my hands-on work with the **Wazuh Security Information and Event Management (SIEM)** platform through Cybrary’s training labs.
-
-## 🔍 Lab Topics Covered
-
-- **Wazuh Interface Overview**
-  - Modules: Security Information Management, Auditing, Threat Detection, Regulatory Compliance
-- **Security Events Dashboard**
-  - Navigating event logs and Lucene-based filtering
-  - Sorting and expanding logs for deeper analysis
-
-- **Apache Lucene Syntax**
-  - Filtering logs with `key:value`, Boolean logic (AND, OR, NOT)
-  - Examples:
-    - `rule.description: "User account enabled or created."`
-    - `manager.name: ubuntu AND data.win.eventdata.targetUserName: Pikachu`
-
-- **Event Analysis with MITRE ATT&CK**
-  - MITRE Technique `T1098`: Persistence via user account creation
-  - Associated event logs using Event ID 4720 (Windows account creation)
-
-- **Cross-platform Validation**
-  - Viewed and correlated logs in both:
-    - **Windows Event Viewer**
-    - **Wazuh Web Interface**
-  - Confirmed timestamps, usernames, domains, and IPs
-
-- **Custom Filtering**
-  - Filtered logs by:
-    - Time range (e.g., `Jan 20, 2024 → Jan 23, 2024`)
-    - Rule ID, rule.level, manager.name
-    - Target usernames: `Hermit`, `Joker`, `Chariot`, `Pikachu`
-
-## 🧠 Skills Practiced
-
-- SIEM navigation and dashboard use
-- Lucene/DQL search syntax for log queries
-- Log correlation across systems
-- MITRE mapping for detection and classification
-- Agent service troubleshooting (Wazuh agent restarts, host file updates, IP validation)
-
-## 📂 Related Screenshots
-
-Screenshots inside this folder include:
-
-- Dashboard views (`wazuh_main_dashboard.png`, `wazuh_concepts_overview.png`)
-- Filtered search results (`wazuh_event_filter_user_created_t1098.png`)
-- Event log deep dives (`wazuh_pikachu_event_details_t1098.png`, `wazuh_mitre_t1098_pikachu_details.png`)
-- SIEM filter examples and visualizations
+This section contains hands-on labs using the **Wazuh SIEM** interface to analyze Windows security logs, filter events using Lucene syntax, and correlate real-time alerts with MITRE ATT&CK TTPs.
 
 ---
 
-### ✅ Summary
+## 📊 Wazuh Main Dashboard
 
-This lab helped reinforce SIEM fundamentals while giving hands-on experience working with **Wazuh**, **log queries**, and **threat detection** using real-world security data.
+Explore event levels, MITRE correlations, and alert timelines.
 
+![Main Dashboard](wazuh_main_dashboard.png)
+
+---
+
+## 🔍 Using Lucene Filters for Precision Search
+
+Filtering specific logs using `rule.description`, `manager.name`, `eventID`, and usernames with DQL syntax.
+
+![User Creation Filter](wazuh_event_filter_user_created_t1098.png)
+
+---
+
+## 📎 MITRE Technique T1098 - User Account Creation
+
+Wazuh detected the creation of the `Pikachu` account and mapped it to MITRE ATT&CK T1098 (Persistence).
+
+![Pikachu Event](wazuh_pikachu_event_details_t1098.png)
+
+---
+
+## 📄 Correlating Alerts & Viewing Event Details
+
+In-depth alert breakdown including rule IDs, agent info, and timestamps.
+
+![Event Detail](wazuh_event_apparmor_denied_details.png)
+
+---
+
+## ✅ SIEM Challenge Completion
+
+Completed challenge by identifying correct users, filters, and answering correlation questions in Wazuh.
+
+![Challenge Result](wazuh_challenge_results.png)
+
+---
+
+## 🔗 Other Notable Screens
+
+- [ ] `wazuh_interface_breakdown.png`
+- [ ] `wazuh_data_visualization.png`
+- [ ] `wazuh_events_sorting_multiple_alerts.png`
+- [ ] `wazuh_filter_rule_5710.png`
+- [ ] `wazuh_elastic_modules_view.png`
+
+---
+
+### 📚 Skills Practiced
+
+- SIEM log correlation
+- Lucene/DQL search syntax
+- Event Viewer + Wazuh side-by-side analysis
+- MITRE ATT&CK mapping
+- Real-world alert triage & filtering
+
+---
