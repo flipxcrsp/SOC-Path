@@ -73,7 +73,7 @@ Completed challenge by identifying correct users, filters, and answering correla
 
 ---
 
-### 📚 Skills Practiced
+## 🧠 Skills Practiced
 
 - SIEM log correlation
 - Lucene/DQL search syntax
@@ -82,3 +82,13 @@ Completed challenge by identifying correct users, filters, and answering correla
 - Real-world alert triage & filtering
 
 ---
+
+## 🏁 Outcome
+
+Successfully completed Wazuh SIEM labs and gained hands-on experience with log filtering, correlation, and detection workflows using the Wazuh dashboard.
+
+### 📜 Certificate of Completion
+
+<img src="../Certificates/cybrary-cert-siem-basics.png" width="500"/>
+
+[🔗 View PDF Certificate](../Certificates/cybrary-cert-siem-basics.pdf)
