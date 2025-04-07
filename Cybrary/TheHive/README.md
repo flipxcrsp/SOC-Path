@@ -16,17 +16,17 @@ This section documents hands-on experience using **TheHive**, a security inciden
 ## 🔁 Ticketing Workflow in TheHive
 
 ### 📥 Ticket Creation
-![Ticket Creation](the_hive_create_a_ticket.png)
+![Ticket Creation](thehive_create_ticket_form.png)
 
 ### 🧑‍💻 Ticket Assignment
-![Assign Ticket to Marcus](the_hive_assignee_marcus.png)
+![Assign Ticket to Marcus](thehive_ticket_assigned_marcus.png)
 
 ### 📝 Ticket Annotation
-![Add Annotation](the_hive_annotation.png)
+![Add Annotation](thehive_case_annotation.png)
 
 ### 📤 Closing the Ticket
-![Closure Description](the_hive_closing_ticket_description.png)  
-![Ticket Closed](the_hive_ticket_closed.png)
+![Closure Description](thehive_closing_description.png)  
+![Ticket Closed](thehive_closing_ticket.png)
 
 ---
 
@@ -34,8 +34,8 @@ This section documents hands-on experience using **TheHive**, a security inciden
 
 Once created, tickets are automatically added to a queue for analysts to triage.
 
-![Ticket Added to Queue](the_hive_ticket_added_queue.png)  
-![Ticket Overview](the_hive_ticket_created.png)
+![Ticket Added to Queue](thehive_ticket_added_queue.png)  
+![Ticket Overview](thehive_ticket_created_details.png)
 
 ---
 
