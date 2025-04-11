@@ -4,6 +4,15 @@ This document summarizes my learning and hands-on experience from the **ServiceN
 
 ---
 
+## 🧭 GRC Architecture Overview
+
+Understanding the relationship between authority documents, policies, control objectives, risks, and entities is key to mastering how ServiceNow GRC works as a unified system.
+
+This high-level architecture diagram visualizes how core GRC components connect:
+
+![GRC Architecture Diagram](./Screenshots/GRC_Diagram_Framework.png)
+
+
 ## 🧭 Configurable GRC Workspaces
 
 Role-based dashboards help GRC personas manage tasks, issues, and assessments.
