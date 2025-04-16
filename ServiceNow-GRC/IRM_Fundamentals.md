@@ -251,7 +251,8 @@ This course reinforced key skills for SOC, compliance analyst, and GRC roles, in
 ---
 
 ## 📸 Visual Proof
-Badge and screenshots can be found in [../Screenshots](../Screenshots)
+![Badge Unlocked](./Screenshots/GRC_IRM_Fundamentals_Badge_Unlocked.png)  
+![Completion Confirmation](./Screenshots/GRC_IRM_Fundamentals_Completion_Date.png)
 
 ---
 
