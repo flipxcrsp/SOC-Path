@@ -1,4 +1,4 @@
-# SOC-skillsets
+# SOC-Skillsets
 
 > Documenting the grind toward having a better understanding of what tools and methods are used in SOC environments.
 > Labs, guided modules, CTF exercises, and practical examples across various platforms.
